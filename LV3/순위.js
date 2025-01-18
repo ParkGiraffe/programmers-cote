@@ -27,7 +27,5 @@ function solution(n, results) {
     if (check == n - 1) result++;
   }
 
-  // console.log(win)
-
   return result;
 }
