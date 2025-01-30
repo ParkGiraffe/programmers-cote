@@ -10,7 +10,6 @@ function solution(n, edge) {
   const distance = new Array(n + 1).fill(-1);
 
   distance[1] = 0;
-  // let curD = 1;
 
   while (queue.length) {
     const curNode = queue.shift();
