@@ -6,7 +6,6 @@ function solution(priorities, location) {
 
   while (finishedCount !== programCount) {
     const max = Math.max(...priorities);
-    // console.log(max)
 
     while (priorities[pointer] !== max) {
       pointer++;
