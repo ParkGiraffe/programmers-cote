@@ -29,7 +29,6 @@ function solution(bridge_length, weight, truck_weights) {
       onBridgeCount++;
       onBridgeWeight += curTruck;
     }
-    // console.log(queue);
   }
 
   return curTime;
