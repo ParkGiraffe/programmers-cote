@@ -31,7 +31,7 @@ const func = (people, limit, amounts, boats) => {
 // 해결
 function solution(people, limit) {
   people.sort((a, b) => b - a);
-  // console.log(people)
+
   let count = 0;
 
   let j = people.length - 1;
