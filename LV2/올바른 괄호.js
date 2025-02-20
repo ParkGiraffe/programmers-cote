@@ -9,14 +9,6 @@ function solution(s) {
     }
   }
 
-  // for (let cur of s.split('')) {
-  //     if (cur === '(') queue.push(cur);
-  //     else { // ')'
-  //         if (queue[0] === '(') queue.pop();
-  //         else return false;
-  //     }
-  // }
-
   if (queue > 0) return false;
 
   return true;
